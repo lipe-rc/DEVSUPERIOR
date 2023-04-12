@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    height: 470px;
+    background-color: #f78b00;
+}
+
+.container{
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+}
+
+.area-container-header{
+    background-color: #f78b00;
+    border-radius: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+    padding: 0px 20px;
+}
+
+.logo-dev{
+    font-size: 25px;
+    color: #00285f;
+}
+
+.menu-header nav ul,
+.menu-header nav ul li{
+    list-style-type: none;
+}
+
+
+.menu-header nav ul{
+    display: flex;
+}
+
+
+.menu-header nav ul li a{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    color: #00285f;
+    text-decoration: none;
+}
+
+
+.menu-header .login{
+    border: 1px solid #00285f;
+    margin-left: 20px;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.info-carro-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00285f;
+    padding-top: 150px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.text-carro-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+    padding: 20px;
+    flex: 2;
+}
+
+.text-carro-header h1{
+    margin-bottom: 20px;
+}
+
+
+.info-carro-header img{
+    width: 500px;
+    flex: 1;
+}
+
+.section1{
+    margin-top: 100px;
+}
+
+.container-section1{
+    padding-top: 100px;
+}
+
+.text2-default{
+    margin-bottom: 20px;
+}
+
+.text-default{
+    margin-top: 20px;
+}
+
+.container--carros{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px
+}
+
+.carro{
+    background-color: red;
+    padding: 20px;
+    background: #ededed;
+    display: flex;
+    flex-direction: column;
+}
+
+.carro img{
+    width: 200px;
+    align-self: center;
+}
+
+.search{
+    grid-column: 1 / 4;
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+}
+
+.search input{
+    width: 100%;
+    padding: 10px;
+    border: 0;
+}
+
+.search button{
+    width: 100px;
+    border: 0;
+    background-color: #00285f;
+    color: #fff;
+}
+
+.nome-carro{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.buttom{
+    display: block;
+    background-color: #00285f;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.container-section2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container-text-section2{
+    display: flex;
+    background: #dedede3b;
+}
+
+.text-section2{
+    flex: 1;
+}
+
+.bg-section2{
+    background-image: url('../images/about.png');
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    background-color: #000000a1;
+    border-radius: 10px;
+}
+
+
+
+.text-section2{
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 30px;
+    text-align: end;
+    padding-bottom: 100px;
+}
+
+.text-section2 h3{
+    margin-bottom: 20px;
+}
+
+.text-section2 p{
+    color: #999;
+}
+
+.section3{
+    background: #ededed;
+}
+
+.section-faeatures{
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+    border: 1px solid #dedede3b;
+}
+
+.section-faeatures h5{
+    font-size: 20px;
+}
+
+.section-faeatures img{
+    width: 50px;
+}
+
+.text-feature{
+    margin-left: 30px;
+}
+
+.container-section3{
+    padding: 50px 0px;
+}
+
+.container-text-section3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    padding: 30px;
+    background: #fff;
+}
+
+.section4{
+    background: #f78b00;
+}
+
+.redes{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+.section-redes{
+    flex: 1;
+    text-align: center;
+}
+
+.img-redes{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-redes img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.text-redes{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background: #00285f;
+}
+
+.menu-header button{
+    display: none;
+    padding: 10px 20px;
+    border: 1px solid #00285f;
+    background: transparent;
+    color: #fff;
+}
